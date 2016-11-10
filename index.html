@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="" />
+  	<meta name="keywords" content="" />
+	<meta name="robots" content="" />
+	
+	<link href='' rel='stylesheet' type='text/css'>
+	
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/960.css" rel="stylesheet" type="text/css" />
+	<link href="css/index.css" rel="stylesheet" type="text/css" />
+	<link href="fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+	
+	<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="js/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="cform.js"></script>
+	
+<script type="text/javascript"> 
+  $(document).ready(function(){
+    $("nav").sticky({topSpacing:0});
+  });
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+
+	
+	$("a.single_image").fancybox();
+	
+
+	
+	$("a#inline").fancybox({
+		'hideOnContentClick': true
+	});
+
+
+	
+	$("a.group").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+	
+});
+</script>
+	
+</head>
+
+<div class="topbar"></div>
+
+<div id="intro">
+	<div class="title">
+		<h1>hello<br />
+		<span class="small">my name is</span><br />
+		<span class="name">li  peng</span><br />
+		<span class="intro_line"></span><span class="amp">&</span><span class="intro_line"></span><br />
+		<span class="small">i'm a web engineer</span></h1>
+	</div> <!-- end .title -->
+</div> <!-- end #intro -->
+
+
+<nav>
+	<ul>
+		<li><a href="#intro">主题</a></li>
+		<li><a href="#work">前端作品展示</a></li>
+		<li><a href="#services">设计作品展示</a></li>
+		<li><a href="#about">自我介绍</a></li>
+		<li><a href="#contact">联系方式</a></li>
+	</ul>
+</nav> <!-- end nav -->
+
+
+<div id="work">
+	<div class="container_16">
+		
+		<div class="subheader">
+			<div class="subheader_line"></div><h2>前端作品展示</h2><div class="subheader_line"></div>
+		</div>
+		
+		<div class="gallery">
+			<div class="grid_5">
+				<a href="http://uek222.duapp.com/index.php?m=content&c=index&a=lists&catid=18">
+				  <div class="screenshot1 ss">
+					<img src="img/1.png" alt="">
+				  </div>
+				</a>
+				<p>阿买提</p>
+			</div>
+			<div class="grid_6">
+				<a href="http://uek333.duapp.com/">
+				  <div class="screenshot2 ss center">
+					<img src="img/2.png" alt="">
+				  </div>
+				</a>
+				<p>西安大正医药有限责任公司</p>
+			</div>
+			<div class="grid_5">
+			    <a href="https://zhujiaweixiangchishi.github.io/360/">
+				<div class="screenshot3 ss">
+					<img src="img/3.png" alt="">
+				</div>
+				</a>
+				<p>360商城</p>
+			</div>
+		
+			<div class="spacer">&nbsp;</div>
+		
+			<div class="grid_5">
+				<a href="https://zhujiaweixiangchishi.github.io/baiduweilai/">
+				<div class="screenshot4 ss">
+					<img src="img/4.png" alt="">
+				</div>
+				</a>
+				<p>百度未来商店</p>
+			</div>
+			<div class="grid_6">
+				<a href="https://zhujiaweixiangchishi.github.io/tima/">
+				<div class="screenshot5 ss center">
+					<img src="img/5.png" alt="">
+				</div></a>
+				<p>天猫</p>
+			</div>
+			<div class="grid_5">
+				<a href="https://zhujiaweixiangchishi.github.io/ewq/">
+				<div class="screenshot6 ss">
+					<img src="img/6.png" alt="">
+				</div>
+				</a>
+				<p>todolist</p>
+			</div>
+		</div><!-- end .gallery -->
+		
+	</div> <!-- end .container_16 -->
+</div> <!-- end #work -->
+
+<div class="work_bg_bottom"></div>
+
+<div id="services">
+	<div class="container_16">
+	
+		<div class="subheader">
+			<div class="subheader_line"></div><h2>设计作品展示</h2><div class="subheader_line"></div>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div class="serv_icons">
+			<div class="grid_4">
+				<div class="serv_icon1">
+					<img src="img/9.jpg" alt="">
+				</div>
+				<h3>扁平化图标</h3>
+			</div>
+		
+			<div class="grid_4">
+				<div class="serv_icon2">
+					<img src="img/10.jpg" alt="">
+				</div>
+				<h3>2.5D图标</h3>
+			</div>
+		
+			<div class="grid_4">
+				<div class="serv_icon3">
+					<img src="img/11.jpg" alt="">
+				</div>
+				<h3>拟物图标</h3>
+			</div>
+			
+			<div class="grid_4">
+				<div class="serv_icon4">
+					<img src="img/12.jpg" alt="">
+				</div>
+				<h3>拟物图标</h3>
+			</div>
+		</div> <!-- end .serv_icons -->
+		
+	</div> <!-- end .container_16 -->
+</div> <!-- end #services -->
+
+<div class="services_bg_bottom"></div>
+
+<div id="about">
+	<div class="container_16">
+	
+		<div class="subheader">
+			<div class="subheader_line"></div><h2>自我介绍</h2><div class="subheader_line"></div>
+		</div>
+	
+	<div class="grid_5">
+		<div class="about_pic">
+			<img src="img/7.jpg" alt="">
+		</div>
+		<div class="social">
+			<ul>
+				<li><a href="#"><div class="twitter sprite"></div></a></li>
+				<li><a href="#"><div class="facebook sprite"></div></a></li>
+				<li><a href="#"><div class="linkedin sprite"></div></a></li>
+				<li><a href="#"><div class="dribble sprite"></div></a></li>
+			</ul>
+		</div> <!-- end .social -->
+	</div> <!-- end .grid_5 -->
+	
+	<div class="grid_6">
+			<div class="about_copy">
+			<p>姓名：李鹏</p>
+			<p>年龄：22岁</p>
+			<p>籍贯：陕西西安</p>
+			<p>毕业院校：西安外事学院</p>
+			<p>电话号码：15102962360</p>
+			<p>邮箱：15102962360@163.com</p>
+			<p>奖项荣誉：<br>
+			    2004.10获“优秀干部称号”<br>
+				2014.12获“三好学生称号”<br>
+				2015.5陕西省网络技能大赛一等奖<br>
+				微软认证exel操作证书
+</p>
+		</div> <!-- end .about_copy -->
+	</div> <!-- end .grid_6 -->
+	
+	<div class="grid_5">
+		<div class="skills">
+			<h4>技能</h4>
+			<ul>
+				<li><div class="skill1"><p>HTML+CSS</p></div></li>
+				<li><div class="skill2"><p>Javascript</p></div></li>
+				<li><div class="skill3"><p>Jquery</p></div></li>
+				<li><div class="skill4"><p>Ajax</p></div></li>
+				<li><div class="skill5"><p>AngularJS</p></div></li>
+				<li><div class="skill6"><p>响应式</p></div></li>
+				<li><div class="skill4"><p>bootstrap</p></div></li>
+			</ul>
+		</div> <!-- end .skills -->
+	</div> <!-- end .grid_5 -->
+	
+	</div> <!-- end .container_16 -->
+</div> <!-- end #about -->
+
+<div class="about_bg_bottom"></div>
+
+<div id="contact">
+	<div class="container_16">
+	
+		<div class="subheader">
+			<div class="subheader_line"></div><h2>联系方式</h2><div class="subheader_line"></div>
+		</div>
+		
+		<div class="grid_7">
+			<div class="contact_form">
+				<h4>Get in touch</h4>
+				<form method="post">
+					<input type="text" name="Name" id="name" value="Name" onfocus="this.value = this.value=='Name'?'':this.value;" onblur="this.value = this.value==''?'Name':this.value;" />
+					<input type="text" name="Email" id="email" value="Email" onfocus="this.value = this.value=='Email'?'':this.value;" onblur="this.value = this.value==''?'Email':this.value;" />
+					<input type="text" value="Subject" id="subject" onfocus="this.value = this.value=='Subject'?'':this.value;" onblur="this.value = this.value==''?'Subject':this.value;" />
+					<textarea name="Message" id="body" onfocus="this.value = this.value=='Message'?'':this.value;" onblur="this.value = this.value==''?'Message':this.value;">Message</textarea>
+					<input type="submit" name="submit" id="submit" value="send" class="submit-button" onClick="return check_values();" />
+				</form>
+				<div id="confirmation" style="display:none; position: relative; z-index: 600; font-family: 'Open Sans', sans-serif; font-weight: 300; font-size: 16px; color: #4e4e4e;"></div>
+			</div> <!-- end .contact_form -->
+				
+		</div> <!-- end .grid_7 -->
+				
+		<div class="grid_9">
+		
+			<div class="contact_info">
+			   <img src="img/8.png" alt="">
+			</div> <!-- end .contact_info -->
+		
+			<div class="map">
+				
+			</div> <!-- end .map -->
+			
+		</div> <!-- end .grid_9 -->
+		
+	</div> <!-- end .container_16 -->
+</div> <!-- end #contact -->
+
+<div class="contact_bg_bottom"></div>
+
+<footer>
+	<p></p>
+</footer>
